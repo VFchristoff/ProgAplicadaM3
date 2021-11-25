@@ -10,7 +10,7 @@ public class AIPatrol : MonoBehaviour
     public float range; //alcance da visão do inimigo
     public float attackRange; // alcance do ataque do inimigo melee
     private float meleeSpeed, shooterSpeed; // velocidade do ataque do inimigo melee e de longo alcance
-    private float meleeDamage, shooterDamage; //dano do ataque do inimigo melee e de longo alcance
+    public float meleeDamage, shooterDamage; //dano do ataque do inimigo melee e de longo alcance
 
     public Player player; //achar o script player
 
